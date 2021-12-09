@@ -1,0 +1,34 @@
+
+<body>
+<style>
+
+body {
+  border: 1px thick;
+}
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+ 
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:767px) {
+    .column {
+      width: 100%;
+    }
+  }
+  @media (min-width: 545px) and (max-width: 768px) {
+    .column {
+      width: 50%;
+    }
+
+  @media (min-width: 768px) {
+    .column {
+      width: 33.33%;
+    } 
+
+  </style>
+  </body>
+
+
+  
